@@ -1,18 +1,18 @@
 """Thomas Jordan"""
 
-password_length = 6
+PASSWORD_LENGTH = 6
 
 
 def main():
-    password = get_password(password_length)
+    password = get_password()
     print_stars(password)
 
 
-def get_password(password_length):
-    password = input("Please enter a {} character password: ".format(password_length))
+def get_password():
+    password = input("Please enter a {} character password: ".format(PASSWORD_LENGTH))
 
-    while len(password) < password_length:
-        password = input("Please enter a {} character password: ".format(password_length))
+    while len(password) < PASSWORD_LENGTH:
+        password = input("Please enter a {} character password: ".format(PASSWORD_LENGTH))
     return password
 
 

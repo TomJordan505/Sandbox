@@ -6,8 +6,7 @@ Broken program to determine score status
 
 def main():
     score = float(input("Enter score: "))
-    print(score_check(score))
-
+    score_check(score)
 
 def score_check(score):
     if score < 0 or score > 100:
