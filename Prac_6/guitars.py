@@ -17,5 +17,4 @@ def main():
         else:
             print("Guitar {}: {} ({}), worth ${}".format(i, guitar.name, guitar.year, guitar.cost))
 
-
 main()
