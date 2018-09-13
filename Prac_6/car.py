@@ -10,6 +10,7 @@ class Car:
         fuel: float, one unit of fuel drives one kilometre
         """
         self.fuel = fuel
+        self.name = name
         self.odometer = 0
 
     def __str__(self):
