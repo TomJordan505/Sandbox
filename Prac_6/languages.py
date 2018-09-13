@@ -12,4 +12,8 @@ def main():
 
     print("The dynamic languages are: ")
     for language in languages:
-        if language.is_dynamic
+        if language.is_dynamic:
+            print(language.name)
+
+
+main()
